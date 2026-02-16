@@ -105,7 +105,7 @@ def wrap_for_react(structured_tool, loop: asyncio.AbstractEventLoop):
                 f"Create a valid JSON using the schema {schema} and the information from {input_str}. "
                 f"Return only JSON, no code fences."
             )
-            return llm_fix
+            return llm_fix.content
 
     # agent is running synchronously, but tools are async
     def _run(input_str: str, _tool=structured_tool):
