@@ -22,13 +22,21 @@ cd galaxy-mcp-client
 2. Create a .env file with your environment variables:
 ```
 GALAXY_API_KEY=<your-galaxy-api-key>
+GALAXY_URL="https://usegalaxy.eu/"
 DEEPINFRA_API_KEY=<your-deepinfra-api-key>
 ```
 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4. Run the assistant
+4. Set the path to your MCP server in `galaxy-mcp-client.py`:
+```python
+server_params = StdioServerParameters(
+    command="uv",
+    args=["run", "<path-to-mcp-server>"]
+)
+``` 
+5. Run the assistant
 ```bash
 uv run galaxy-mcp-client.py
 ```
