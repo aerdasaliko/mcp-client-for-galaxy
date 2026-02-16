@@ -1,0 +1,11 @@
+bioblend==1.6.0
+dotenv==0.9.9
+fastembed==0.7.3
+fastmcp==2.12.5
+langchain==0.3.25
+langchain-mcp-adapters==0.1.14
+langchain-community==0.3.23
+langgraph==1.0.1
+mcp-use==1.2.8
+prompt-toolkit==3.0.52
+rich==14.2.0
