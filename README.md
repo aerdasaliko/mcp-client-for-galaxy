@@ -19,7 +19,7 @@ An interactive AI assistant client for the Galaxy platform using MCP. Provides a
 git clone https://github.com/aerdasaliko/mcp-client-for-galaxy.git
 cd galaxy-mcp-client
 ```
-2. Create a .env file with your environment variables:
+2. Create a .env file with your environment variables
 ```
 GALAXY_API_KEY=<your-galaxy-api-key>
 GALAXY_URL="https://usegalaxy.eu/"
@@ -29,7 +29,7 @@ DEEPINFRA_API_KEY=<your-deepinfra-api-key>
 ```bash
 pip install -r requirements.txt
 ```
-4. Set the path to your MCP server in `galaxy-mcp-client.py`:
+4. Set the path to your MCP server in `galaxy-mcp-client.py`
 ```python
 server_params = StdioServerParameters(
     command="uv",
