@@ -9,10 +9,13 @@ An interactive AI assistant client for the Galaxy platform using MCP. Provides a
 - **Conversation memory** to maintain context using LangChain's `ConversationBufferMemory`.
 - **Flexible tool invocation**: handles both sync and async tools automatically.
 
+## Requirements
+- Python 3.11+
+
 ## Setup
 
 1. Clone this repository
-```
+```bash
 git clone https://github.com/aerdasaliko/mcp-client-for-galaxy.git
 cd galaxy-mcp-client
 ```
@@ -22,10 +25,10 @@ GALAXY_API_KEY=<your-galaxy-api-key>
 DEEPINFRA_API_KEY=<your-deepinfra-api-key>
 ```
 3. Install dependencies
-```
+```bash
 pip install -r requirements.txt
 ```
 4. Run the assistant
-```
+```bash
 uv run galaxy-mcp-client.py
 ```
