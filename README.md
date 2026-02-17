@@ -1,13 +1,12 @@
-# MCP Client for Galaxy
-An interactive AI assistant client for the Galaxy platform using MCP. Provides a ReAct-style AI interface for executing Galaxy tasks.
+# MCP Agent for Galaxy
+An interactive AI assistant for the Galaxy platform using MCP. Provides a ReAct-style AI interface for executing Galaxy tasks.
 
 ## Features
 
-- **Interactive command-line interface** with line-editing and prompt support.
+- **Interactive command-line interface**.
 - **Structured tool integration**: MCP tools are wrapped for ReAct agents and accept JSON inputs.
 - **Large Language Model support** via DeepInfra.
 - **Conversation memory** to maintain context using LangChain's `ConversationBufferMemory`.
-- **Flexible tool invocation**: handles both sync and async tools automatically.
 
 ## Requirements
 - Python 3.11+
